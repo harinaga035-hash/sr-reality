@@ -22,9 +22,9 @@ const VALUES = [
 ]
 
 const TEAM = [
-  { name: 'Sathya Reddy', role: 'Founder & Managing Director', image: '/images/team-1.jpg' },
-  { name: 'Layla Al Mansoori', role: 'Head of Ultra-Prime Residences', image: '/images/team-2.jpg' },
-  { name: 'Marcus Elhardt', role: 'Senior Portfolio Advisor', image: '/images/team-3.jpg' },
+  { name: 'V.V.S.N Reddy', role: 'Founder & Managing Director', image: '/images/team-1.jpg' },
+  { name: 'Vijay', role: 'Head of Ultra-Prime Residences', image: '/images/team-2.jpg' },
+  { name: 'Vishnu Ippili', role: 'Senior Portfolio Advisor', image: '/images/vishnu.jpeg' },
 ]
 
 const fadeUp = {

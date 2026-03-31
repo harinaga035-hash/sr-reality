@@ -33,14 +33,14 @@ export default function Navbar() {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
       >
-        <div className="max-w-[1400px] mx-auto px-6 lg:px-12 h-20 flex items-center justify-between">
+        <div className="max-w-[1400px] mx-auto px-6 lg:px-12 h-20 mt-8 flex items-center justify-between">
 
           {/* ✅ NEW LOGO */}
           <Link to="/" className="flex items-center">
             <img
               src="/images/logo.png"
               alt="SR Reality Logo"
-              className="h-20 w-auto object-contain"
+              className="h-36 w-auto object-contain"
             />
           </Link>
 

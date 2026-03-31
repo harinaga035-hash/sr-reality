@@ -42,7 +42,7 @@ export default function About() {
       {/* Hero */}
       <section ref={heroRef} className="relative h-[70vh] min-h-[520px] overflow-hidden flex items-end">
         <motion.div className="absolute inset-0 scale-110" style={{ y: yHero }}>
-          <img src="/public/images/about-hero.jpg" alt="SR Reality About" className="w-full h-full object-cover" loading="lazy" />
+          <img src="../public/images/about-hero.jpg" alt="SR Reality About" className="w-full h-full object-cover" loading="lazy" />
         </motion.div>
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black" />
 

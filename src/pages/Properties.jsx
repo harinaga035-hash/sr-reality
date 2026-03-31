@@ -4,15 +4,15 @@ import PageTransition from '../components/PageTransition.jsx'
 import PropertyCard from '../components/PropertyCard.jsx'
 
 const ALL_PROPERTIES = [
-  { image: '../public/images/1.jpg', tag: 'Palm Jumeirah', title: 'The Sovereign Villa', subtitle: '7 BR · Private Beach · Helipad', descriptor: 'Bespoke Italian architecture meets the Arabian Gulf.', category: 'Villa' },
-  { image: '../public/images/3.jpg', tag: 'DIFC · Index Tower', title: 'Penthouse Skies', subtitle: '4 BR · 360° Panorama · Sky Terrace', descriptor: 'A full-floor sky residence above the financial capital.', category: 'Penthouse' },
-  { image: '../public/images/4.jpg', tag: 'Bulgari Island', title: 'Beachfront Residence', subtitle: '5 BR · Private Beach · Boat Dock', descriptor: 'An island retreat of rare distinction.', category: 'Villa' },
-  { image: '../public/images/8.jpg', tag: 'Dubai Marina', title: 'Marina Living', subtitle: '2–4 BR · Marina Walk · Sea Views', descriptor: 'The world\'s finest waterfront address.', category: 'Apartment' },
-  { image: '../public/images/5.jpg', tag: 'Emirates Hills', title: 'Desert Estate', subtitle: '9 BR · 48,000 Sq Ft · Motor Court', descriptor: 'Arabian grandeur at unmatched scale.', category: 'Villa' },
-  { image: '../public/images/9.jpg', tag: 'Jumeirah Golf Estates', title: 'Golf Estate', subtitle: '5–6 BR · Championship View · Pool', descriptor: 'Bordering the championship fairway.', category: 'Villa' },
-  { image: '../public/images/11.jpg', tag: "One Za'abeel", title: 'Sky Collection', subtitle: '1–4 BR · Skywalk · Level 68 Pool', descriptor: 'The sky\'s most anticipated address.', category: 'Penthouse' },
-  { image: '../public/images/10.jpg', tag: 'Downtown Dubai', title: 'Urban Pulse', subtitle: 'Studio–3 BR · Metro Access · DIFC', descriptor: 'Investment-grade metropolitan living.', category: 'Apartment' },
-  { image: '../public/images/7.jpg', tag: 'Palm Jumeirah', title: 'Palm Crown Residence', subtitle: '6 BR · Frond · Private Garden', descriptor: 'Commanding views of the Palm and sea.', category: 'Villa' },
+  { image: '/images/1.jpg', tag: 'Palm Jumeirah', title: 'The Sovereign Villa', subtitle: '7 BR · Private Beach · Helipad', descriptor: 'Bespoke Italian architecture meets the Arabian Gulf.', category: 'Villa' },
+  { image: '/images/3.jpg', tag: 'DIFC · Index Tower', title: 'Penthouse Skies', subtitle: '4 BR · 360° Panorama · Sky Terrace', descriptor: 'A full-floor sky residence above the financial capital.', category: 'Penthouse' },
+  { image: '/images/4.jpg', tag: 'Bulgari Island', title: 'Beachfront Residence', subtitle: '5 BR · Private Beach · Boat Dock', descriptor: 'An island retreat of rare distinction.', category: 'Villa' },
+  { image: '/images/8.jpg', tag: 'Dubai Marina', title: 'Marina Living', subtitle: '2–4 BR · Marina Walk · Sea Views', descriptor: 'The world\'s finest waterfront address.', category: 'Apartment' },
+  { image: '/images/5.jpg', tag: 'Emirates Hills', title: 'Desert Estate', subtitle: '9 BR · 48,000 Sq Ft · Motor Court', descriptor: 'Arabian grandeur at unmatched scale.', category: 'Villa' },
+  { image: '/images/9.jpg', tag: 'Jumeirah Golf Estates', title: 'Golf Estate', subtitle: '5–6 BR · Championship View · Pool', descriptor: 'Bordering the championship fairway.', category: 'Villa' },
+  { image: '/images/11.jpg', tag: "One Za'abeel", title: 'Sky Collection', subtitle: '1–4 BR · Skywalk · Level 68 Pool', descriptor: 'The sky\'s most anticipated address.', category: 'Penthouse' },
+  { image: '/images/10.jpg', tag: 'Downtown Dubai', title: 'Urban Pulse', subtitle: 'Studio–3 BR · Metro Access · DIFC', descriptor: 'Investment-grade metropolitan living.', category: 'Apartment' },
+  { image: '/images/7.jpg', tag: 'Palm Jumeirah', title: 'Palm Crown Residence', subtitle: '6 BR · Frond · Private Garden', descriptor: 'Commanding views of the Palm and sea.', category: 'Villa' },
 ]
 
 const CATEGORIES = ['All', 'Villa', 'Penthouse', 'Apartment']
@@ -34,7 +34,7 @@ export default function Properties() {
       {/* Hero banner */}
       <section className="relative pt-40 pb-20 bg-black overflow-hidden">
         <div className="absolute inset-0">
-          <img src="/public/images/properties-hero.jpg" alt="" className="w-full h-full object-cover opacity-100" loading="lazy" />
+          <img src="/images/properties-hero.jpg" alt="" className="w-full h-full object-cover opacity-100" loading="lazy" />
           <div className="absolute inset-0 bg-gradient-to-b from-black/70 to-black" />
         </div>
         <div className="relative z-10 max-w-[1400px] mx-auto px-6 lg:px-12">

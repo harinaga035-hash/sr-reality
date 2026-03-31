@@ -256,7 +256,7 @@ function ExperienceSection() {
             variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true }}
           >
             <motion.img
-              src="/public/images/experience.jpg"
+              src="/images/experience.jpg"
               alt="SR Reality Experience"
               className="w-full h-full object-cover"
               style={{ y }}
@@ -316,7 +316,7 @@ function FinalCTA() {
     <section className="relative py-40 overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0">
-        <img src="/public/images/cta-bg.jpg" alt="" className="w-full h-full object-cover opacity-30" loading="lazy" />
+        <img src="/images/cta-bg.jpg" alt="" className="w-full h-full object-cover opacity-30" loading="lazy" />
         <div className="absolute inset-0 bg-gradient-to-b from-black via-black/80 to-black" />
       </div>
 

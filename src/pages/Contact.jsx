@@ -37,8 +37,7 @@ export default function Contact() {
       {/* Hero */}
       <section className="relative pt-40 pb-24 bg-black overflow-hidden">
         <div className="absolute inset-0">
-          <img src="/images/contact-bg.jpg" alt="" className="w-full h-full object-cover opacity-100" loading="lazy" />
-          -hero
+          <img src="/public/images/contact-bg.jpg" alt="" className="w-full h-full object-cover opacity-100" loading="lazy" />
           <div className="absolute inset-0 bg-gradient-to-b from-black/80 to-black" />
         </div>
         <div className="relative z-10 max-w-[1400px] mx-auto px-6 lg:px-12">
